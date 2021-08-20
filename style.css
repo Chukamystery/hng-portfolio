@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    padding: 3% 12% 0 12%;
+
+    
+}
+
+.main-container-img {
+    height: 500px;
+    width: 500px;  
+    border-right: 1px solid rgb(211, 204, 204);
+    width: 50%;
+}
+
+.main-container-img img{
+    width: 206.34px;
+    height: 195px;
+    margin-left: 220px;
+    border: none;
+    border-radius: 5px;  
+
+}
+
+
+.about-container {
+    width: 50%; 
+    margin-left:40px;  
+}
+
+.about-container-name h2{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+
+}
+
+.about-container-name p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #989898;
+}
+
+.about-container-text p {
+    padding: 20px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 182.5%;
+    color: #000000;
+}
+
+.about-container-button  a  {
+    text-decoration: none;
+     display:block;
+     margin-bottom:30px;
+     border:none;
+     background: #8E5DF7;
+     color: white;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 14px;
+     line-height: 198.5%;
+     width: 286px;
+     cursor: pointer;
+     text-align: center;
+     padding:20px 0;
+}
+
+.about-container-button a:nth-child(2){
+    display:block;
+    text-decoration: none;
+    margin-bottom: 30px;
+    border:none;
+    background:#EAEAEA;
+    color: #000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 198.5%;
+    width: 286px;
+    cursor: pointer;
+    padding:20px 0;
+}
+
+.about-container-logos {
+    margin-top: 50px;
+    display: flex;
+    
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    background: #EDEDED;
+    margin-right: 7px;
+}
+
+.logo a {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    
+}
+
+ .iforg a{
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+}
